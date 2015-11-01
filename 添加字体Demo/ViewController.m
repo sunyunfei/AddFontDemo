@@ -17,11 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *str      = @"你好，我叫HELLOD WORLD";
+    NSString *str      = @"你好，我叫SUN YUN FEI";
 
-    UIFont *customfont = [UIFont fontWithName:@"Metal Gear Solid 2" size:30];
-    self.label.font    = customfont;
+    UIFont *myFont = [UIFont fontWithName:@"Metal Gear Solid 2" size:30];
+    self.label.font    = myFont;
     self.label.text    = str;
+    
+//    NSArray *fontArray = [UIFont familyNames];
+//    for (NSString *font in fontArray) {
+//        NSLog(@"font---%@",font);
+//    }
 }
 
 - (void)didReceiveMemoryWarning {
